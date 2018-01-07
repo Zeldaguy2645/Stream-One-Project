@@ -1,0 +1,70 @@
+/*fix img size issue*/
+img{
+	max-width: 100%;
+
+}
+.hide-message{
+	display: none;
+}
+.show{
+	display: block !important;
+}
+.logo{
+	padding: 15px 0;
+	float: left;
+	max-width: 230px;
+	
+}
+.menu-container{
+	float: right;
+}
+.main-menu{
+	padding-top: 26px;
+}
+.main-menu li {
+	float: left;
+	display: inline-block;
+}
+.main-menu li a{
+	margin-right: 14px;
+	color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    /*hover transition smooth*/
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.main-menu li a:hover{
+	color: #ddd;
+	
+}
+.banner{
+	padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid red;
+}
+ .banner h1{
+	width: 100%;
+	text-align: center;
+}
+.home .banner{
+	padding-top: 215px;
+    padding-bottom: 215px;
+    /*border: 1px solid red; FOR DEBUGGING*/
+    background: #ddd;
+}
+
+ 
+
+
+
+@media only screen and (max-width: 768px){
+	.main-menu li {
+
+		width: 100%;
+	}
+}
